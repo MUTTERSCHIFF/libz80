@@ -1,0 +1,32 @@
+# Object files
+*.o
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Auto-generated Opcode files
+codegen/opcodes_decl.h
+codegen/opcodes_impl.c
+codegen/opcodes_table.h
+
+# binaries
+codegen/mktables
+
+# Generate test output
+*.actual
+*.expected
+testfile
+coretest
+
